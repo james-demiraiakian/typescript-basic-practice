@@ -1,16 +1,5 @@
 # TypeScript is JavaScript with type annotations.
 
-const count: number = 5
-^^^^^^^^ <- This is the new syntax for TypeScript.
-
-                              parameter types - argument list
-                     vvvvvvvv   vvvvvvvv ---^
-                                         vvvvvvvv --> return type
-
-const addNumbers = (x: number, y: number): number => {
-return x + y
-}
-
 # Transpiling
 
 TypeScript is compiled to UJS code by removing type annotations
